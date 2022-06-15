@@ -8,11 +8,11 @@
 }
 
 .row {
-    margin: 100%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto -24px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .box {
@@ -26,11 +26,14 @@
 
 .box-wrapper {
     width: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
 .box-tiny {
+    height: 50px;
     width: 30%;
-    height: 50px;}
+}
 
 .tiny-wrapper {
     display: flex;
