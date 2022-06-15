@@ -8,11 +8,11 @@
 }
 
 .row {
-    width: 100%;
+    margin: 100%;
     max-width: 600px;
     margin: 0 auto -24px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .box {
@@ -29,9 +29,8 @@
 }
 
 .box-tiny {
-    height: 50px;
     width: 30%;
-}
+    height: 50px;}
 
 .tiny-wrapper {
     display: flex;
